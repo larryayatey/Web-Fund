@@ -1,0 +1,109 @@
+#maincontainer{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#leftcol{
+    border: 2px solid black;
+    width: 200px;
+    height: 650px;
+    padding: 10px;
+}
+
+#logo{
+    height: 120px;
+    width: 170px;
+}
+
+#map{
+    height: 170px;
+    width: 160px;
+}
+
+.color{
+    color: lightgray;
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#location{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+}
+
+#video{
+    height: 550px
+}
+
+#bottom{
+    display: flex;
+    justify-content: space-around;
+    border: 2px;
+    width: 900px;
+}
+
+.Main-Text:hover + .Extra-Text {
+    display: block;
+}
+
+.Extra-Text {
+    background-color: blue;
+    margin-top: 10px;
+    width: 200px;
+    border: 2px;
+    padding: 10px;
+    font-size: 16px;
+    display: none;
+}
+
+#yourway{
+    background-color: blue;
+    color: white;
+    width: 300px;
+    border-radius: 5%;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.way{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#make{
+    background-color: red;
+    height: 20px;
+}
+
+#size{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#Poke{
+    background-color: red;
+    color: white;
+    width: 300px;
+    border-radius: 5%;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+#sound{
+    height: 30px;
+}
+
+.number{
+    background-color: white;
+    color: blue;
+    border-radius: 50%;
+    padding: 0px 5px;
+}

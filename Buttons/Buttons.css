@@ -1,0 +1,94 @@
+.maincontainer{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#totalcol{
+    display: flex;
+}
+
+#dojonary{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    background-color: lightgrey;
+    color: black;
+    align-items: center;
+    margin-left: 20px;
+    padding: 15px;
+    height: 50px;
+}
+
+#search_button{
+    display: flex;
+    align-items: center;
+}
+
+#leftcol{
+    flex-direction: column;
+    padding: 20px;
+    margin-right: 35px;
+}
+
+#ninja{
+    display: flex;
+    border: 2px solid black;
+    width: 500px;
+    align-items: center;
+    padding: 10px;
+}
+
+#noun{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#japanese{
+    display: flex;
+    align-items: center;
+}
+
+#likes{
+    border: 2px solid black;
+    width: 500px;
+    margin-top: 30px;
+    display: flex;
+    padding: 10px;
+}
+
+#programmer{
+    align-items: center;
+    display: flex;
+}
+
+#rightcol{
+    padding: 20px;
+    display: flex;
+    height: 160px;
+}
+
+#defined{
+    border: 2px solid black;
+    display: flex;
+    width: 200px;
+    padding: 15px;
+    flex-direction: column;
+}
+
+
+.blue{
+    height: 20px;
+    background-color: blue;
+    color: white;
+}
+
+.alert{
+    height: 20px;
+    background-color: yellow;
+}
+
+.green{
+    height: 30px;
+    background-color: green;
+}

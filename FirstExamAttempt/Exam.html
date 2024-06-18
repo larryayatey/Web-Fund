@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Exam.css">
+    <script src="Exam.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <p id="phone">FREE PHONE GRIP ON SELECT PURCHASES</p>
+
+    <div id="Plushstar">
+        <h1>Plushstar</h1>
+        <form>
+            <input type="search" placeholder="Search" id="barsize">
+        </form>
+        <p id="cart_count">0</p>
+        <img src="./1659041981__images/images/cart-dark.png" alt="cart">
+    </div>
+
+    <div id="home">
+        <div id="spaces">
+            <p>
+                Home New Products Sales Blog <button class="alert" onclick="contact()">Contact Us</button>
+            </p>
+        </div>
+    </div>
+
+    <div id="Maincontainer">
+        <h2 id="Plushy">Plushy Store</h2>
+
+        <div id="best_selling">
+            <p>62 Products, sorted by <span id="product">Best Selling</span></p>
+                <form>
+                    <label>Sortby
+                        <select onchange="price(this)">
+                            <option value="Best Selling">Best Selling</option>
+                            <option value="Price">price</option>
+                        </select>
+                    </label>
+                </form>
+        </div>
+        <div id="bottow">
+            <div id="Mischief">
+                <img class="smallimages"  src="./1659041981__images/images/product-image.png" alt="bearsimage">
+                <p class="bears">Mischief Mouse</p>
+                <button class="Make_Me_Money" onclick="cartcount()">Buy</button>
+            </div>
+    
+            <div id="Shy">
+                <img class="smallimages" src="./1659041981__images/images/product-image.png" alt="bearsimage">
+                <p class="bear">Shy Shrew</p>
+                <button class="Make_Me_Money" onclick="cartcount()">Buy</button>
+            </div>
+
+            <div id="Hangry">
+                <img class="smallimages" src="./1659041981__images/images/product-image.png" alt="bearsimage">
+                <p class="bears">Hangry Hamster</p>
+                <button class="Make_Me_Money" onclick="cartcount()">Buy</button>
+            </div>
+
+            <div id="Chilly">
+                <img class="smallimages" src="./1659041981__images/images/product-image.png" alt="bearsimage">
+                <p class="bears">Chilly Chinchilla</p>
+                <button class="Make_Me_Money" onclick="cartcount()">Buy</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

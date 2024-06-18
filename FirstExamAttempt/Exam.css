@@ -1,0 +1,93 @@
+
+
+#phone{
+    text-align: center;
+    font-size: larger;
+    background-color: palevioletred;
+    color: white;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+#Plushstar{
+    display: flex;
+    background-color: white;
+    border: 2px;
+    justify-content: center;
+    align-items: center;
+    gap: 43px;
+}
+
+#barsize{
+    width: 600px;
+    height: 30px;
+}
+
+
+#shopping{
+    height: 40px;
+}
+
+#home{
+    display: flex;
+    background-color: lightgrey;
+    border: 2px;
+    justify-content: center;
+}
+
+#spaces{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px;
+    width: 600px;
+    font-size: larger;
+}
+
+#Maincontainer{
+    margin: 10px 20%;
+}
+
+#Plushy{
+    text-align: center;
+    padding: 30px;
+    background-color: palevioletred;
+    border: 2px;
+    height: 70px;
+    color: white;
+}
+
+#best_selling{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#bottow{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.bears{
+    margin-left: 30px;
+    font-size: larger;
+}
+
+.bear{
+    margin-left: 50px;
+    font-size: larger;
+}
+
+.Make_Me_Money{
+    background-color: palevioletred;
+    color: white;
+    margin-left: 60px;
+    height: 30px;
+    width: 60px;
+    border: 2px;
+}
+
+.smallimages{
+    height: 190px;
+}

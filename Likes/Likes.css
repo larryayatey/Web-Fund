@@ -1,0 +1,30 @@
+#maincontainer{
+    border: 2px solid black;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+
+#someuser{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    height: 150px;
+}
+
+#orange{
+    height: 40px;
+    margin-top: 30px;
+    background-color: orange;
+}
+
+#angel{
+    padding: 5px;
+    margin-left: 150px;
+}
+
+#Name{
+    font-size: larger;
+}

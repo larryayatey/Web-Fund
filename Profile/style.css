@@ -1,0 +1,122 @@
+#nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#nav div{
+    display: flex;
+    align-items: center;
+}
+
+.maincontainer{
+    display: flex;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#start >p{
+    margin-left: 15px;
+}
+
+#Jane{
+    border: 2px solid lightgrey;
+    border-top: 70px solid lightskyblue;
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+#Jane >img{
+    height: 70px; 
+    border-radius: 50%;
+    margin-top: -45px;
+}
+
+#Marker >img{
+    height: 30px;
+}
+
+#Educate{
+    color: black;
+    margin: 10px;
+    width: 400px;
+    border: 2px solid lightgrey;
+    border-top: 60px solid black;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+#edu{
+    margin-top: -70px;
+    color: white;
+}
+
+#Connection{
+    color: grey;
+    border: 2px solid lightgrey;
+    border-top: 60px solid black;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 300px;
+}
+
+
+#Conn{
+    margin-top: -70px;
+    color: white;
+}
+
+#lastdiv{
+    border: 2px solid grey;
+    border-top: 60px solid black;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+#Connects{
+    margin-top: -75px;
+    color: white;
+}
+
+
+
+#Educate >p {
+    color: grey;
+}
+
+.number2{
+    background-color: grey;
+    border-radius: 50%;
+    padding: 0px 5px;
+}
+
+.green_btn{
+    background-color: lightblue;
+    height: 30px;
+}
+
+.smallimages{
+    height: 40px;
+}
+
+.linear{
+    display: inline-flex;
+}
+
+.sizeup{
+    display: flex;
+    flex-direction: column;
+}
+
+.picturep{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}

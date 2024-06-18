@@ -1,0 +1,77 @@
+#maincontainer{
+    width: 800px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Network{
+    background-color: black;
+    color: white;
+    width: 610px;
+    height: 60px;
+    padding: 5px;
+    margin-left: 340px;
+}
+
+h2{
+    margin-left: 570px;
+}
+
+#James{
+    border: 2px solid black;
+    width: 80px;
+    padding: 5px;
+    height: 100px;
+}
+
+#rightcol{
+    /* margin-right: auto; */
+    margin-left: 50px;
+    align-items: center;
+}
+
+#firstcontainer{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+#Neil{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+#secondcontainer{
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+#Nichole{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+#thirdcontainer{
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+#Jim{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.Names{
+    font-size: larger;
+    
+}
+
